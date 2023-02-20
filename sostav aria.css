@@ -1,0 +1,153 @@
+* {
+margin: 0;
+padding: 0;
+}
+#logo{
+	margin-left: 100px;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+body{
+margin: 0;
+padding: 0;
+background-color:#000000
+}
+#header{
+justify-content: space-evenly;
+display:flex;
+text-align: justify;
+height: 11em;
+background: #000000;
+color: #FFFFFF;
+width: 100%;
+box-shadow:0px 5px 10px black;
+}
+.background{
+	position:fixed;
+	width:100vw;
+	height:100vh;
+	top: 0;
+	object-fit: cover;
+	z-index: -1;
+	opacity:0.3;
+	background-color:#000000;
+}  
+#main{
+	
+}
+.imxt{
+	display: flex;
+	flex-direction: column;
+	
+}	
+.image{
+	top:11em;
+	height: 400px;
+}
+.image1{
+	padding: 15px; /* Расстояние от картинки до рамки */
+    background: #000000; /* Цвет фона */
+    margin-right: 10px;
+	margin-left: 10px;	/* Отступ справа */
+    margin-bottom: 30px; /* Отступ снизу */
+	margin-top: 30px;
+	border-radius: 50px;
+    border: 5px #FFFFFF solid;
+	opacity:rgba(0, 0, 0, 0.5);
+	z-index:-1;
+}  
+.text{
+ margin-right: 10px;
+ margin-left: 600px;	/* Отступ справа */
+ margin-bottom: 30px; /* Отступ снизу */
+margin-top: px;
+height:100%;
+width: 500px;
+color:#FFFFFF;
+}
+.text1{
+  margin-right: 10px;
+  margin-left: 600px;	/* Отступ справа */
+   margin-bottom: 30px; /* Отступ снизу */
+margin-top: 30px;
+height: 500px;
+font-family: "tahoma", sans-serif;
+font-size: 16px;
+color:#FFFFFF;
+text-align:justify;
+z-index:-1;
+}
+.musician__title {
+position:absolute;
+left:450px;
+right:600px;
+top: 275px;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+	color:#FFFFFF;
+	z-index:-1;
+}
+.vk{
+margin-top: 300px;
+border-radius: 10px;
+}
+.line {
+    border-bottom: 2px solid #FFFFFF; /* Параметры линии */
+   }
+.menu *{
+margin: 0;
+padding: 0;
+}
+.menu ul,
+.menu ol{
+list-style: none;
+}
+.menu > ul{
+display: flex;
+justify-content: space-between;
+}
+.menu >ul li{
+	position:relative;
+}
+.menu > ul li a{
+display: block;
+padding: 70px 35px 15px 130px;
+font-size: 36px;
+color: #FFFFFF;
+text-decoration: none;
+text-transform:uppercase;
+font-family: @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap'), sans-serif;
+transition: all 0.3s ease;
+}
+.menu > ul li > a i.fa{
+position: absolute;
+top: 15px;
+left: 1px;
+font-size: 10px;
+}
+.menu li a:hover{
+ background: #FFFFFF;
+ color:#000000;
+ box-shadow: 1px 5px 10px -5px black;
+  transition: all 0.3s ease;
+}
+.menu li ul{
+ position: absolute;
+ min-width: 150px;
+ display: none;
+}
+.menu li > ul li a{
+ padding: 10px;
+ text-transform: none;
+ background: #000000;
+}
+.menu li > ul li ul{
+ position: absolute;
+ right: -150px;
+ top: 0;
+}
+.menu li:hover > ul{
+ display: block;
+}

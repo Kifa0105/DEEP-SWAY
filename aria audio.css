@@ -1,0 +1,176 @@
+* {
+margin: 0;
+padding: 0;
+}
+#logo{
+	margin-left: 100px;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+body{
+margin: 0;
+padding: 0;
+background-color:#000000
+}
+#header{
+justify-content: stretch;
+display:flex;
+text-align: justify;
+height: 11em;
+background: #000000;
+color: #FFFFFF;
+width: 100%;
+box-shadow:0px 5px 10px black;
+} 
+#photo{
+	margin-left:650px;
+	margin-top:-200px;
+}
+.audio{
+	position: absolute;
+	top:550px;
+	left: 1115px;
+}
+audio {
+	display: block;
+    width: 360px;
+    height: 40px;
+	position: absolute;
+	top:80px;
+	left: 195px;
+}
+.oskolok{
+color:#FFFFFF;
+margin-top: 50px;
+text-align: justify;
+margin-right: 850px;
+font-size: 16px;
+margin-left: 50px;
+}
+.oskolokn
+{
+color:#fab1b1;
+font-size: 38px;
+text-align:center;
+}
+#photo1{
+	margin-left:650px;
+	margin-top:-200px;
+}
+.audio1{
+	position: absolute;
+	top:1020px;
+	left: 1115px;
+}
+audio {
+	display: block;
+    width: 360px;
+    height: 40px;
+	position: absolute;
+	top:80px;
+	left: 195px;
+}
+.shtil{
+color:#FFFFFF;
+margin-top: 50px;
+text-align: justify;
+margin-right: 850px;
+font-size: 16px;
+margin-left: 50px;
+}
+.shtiln
+{
+color:#fab1b1;
+font-size: 38px;
+text-align:center;
+}
+#photo2{
+	margin-left:650px;
+	margin-top:-250px;
+}
+.audio2{
+	position: absolute;
+	top:1480px;
+	left: 1115px;
+}
+audio {
+	display: block;
+    width: 360px;
+    height: 40px;
+	position: absolute;
+	top:80px;
+	left: 195px;
+}
+.angel{
+color:#FFFFFF;
+margin-top: 50px;
+text-align: justify;
+margin-right: 850px;
+font-size: 16px;
+margin-left: 50px;
+}
+.angeln
+{
+color:#fab1b1;
+font-size: 38px;
+text-align:center;
+}	
+.menu *{
+margin: 0;
+padding: 0;
+}
+.menu ul,
+.menu ol{
+list-style: none;
+}
+.menu > ul{
+display: flex;
+justify-content: space-between;
+}
+.menu >ul li{
+	position:relative;
+}
+.menu > ul li a{
+display: block;
+padding: 70px 35px 15px 130px;
+font-size: 36px;
+color: #FFFFFF;
+text-decoration: none;
+text-transform:uppercase;
+font-family: @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap'), sans-serif;
+transition: all 0.3s ease;
+}
+.menu > ul li > a i.fa{
+position: absolute;
+top: 15px;
+left: 1px;
+font-size: 10px;
+}
+.menu li a:hover{
+ background: #FFFFFF;
+ color:#000000;
+ box-shadow: 1px 5px 10px -5px black;
+  transition: all 0.3s ease;
+}
+/*sub menu*/
+.menu li ul{
+ position: absolute;
+ min-width: 150px;
+ display: none;
+}
+.menu li > ul li a{
+ padding: 10px;
+ text-transform: none;
+ background: #000000;
+}
+.menu li > ul li ul{
+ position: absolute;
+ right: -150px;
+ top: 0;
+}
+.menu li:hover > ul{
+ display: block;
+}
+.line {
+    border-bottom: 2px solid #FFFFFF; /* Параметры линии */
+   }
